@@ -1,4 +1,4 @@
-package com.github.bringking.maven.requirejs;
+package com.github.acleasby.maven.requirejs;
 
 import org.apache.maven.plugin.logging.Log;
 import org.mozilla.javascript.ErrorReporter;

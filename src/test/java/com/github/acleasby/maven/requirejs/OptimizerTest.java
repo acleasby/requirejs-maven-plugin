@@ -1,4 +1,4 @@
-package com.github.bringking.maven.requirejs;
+package com.github.acleasby.maven.requirejs;
 
 import static org.junit.Assert.assertTrue;
 import static org.junit.Assume.assumeTrue;
@@ -102,7 +102,7 @@ public class OptimizerTest {
         String nodeCmd = NodeJsRunner.detectNodeCommand();
         assumeTrue(nodeCmd != null); // skip if no node command detected.
         long start = System.currentTimeMillis();
-        optimizer.optimize(loadProfile("testcase space/buildConfig1.js"), reporter, new NodeJsRunner(nodeCmd));
+        optimizer.optimize(loadProfile("testcase space/buildconfig1.js"), reporter, new NodeJsRunner(nodeCmd));
         long end = System.currentTimeMillis();
 
         log.debug("total time ::" + (end - start) + "msec");
@@ -114,7 +114,7 @@ public class OptimizerTest {
         assumeTrue(nodeCmd != null); // skip if no node command detected.
         long start = System.currentTimeMillis();
         File externalRequire = loadProfile("external space/r.js");
-        optimizer.optimize(loadProfile("testcase space/buildConfig1.js"), externalRequire, reporter, new NodeJsRunner(nodeCmd));
+        optimizer.optimize(loadProfile("testcase space/buildconfig1.js"), externalRequire, reporter, new NodeJsRunner(nodeCmd));
         long end = System.currentTimeMillis();
 
         log.debug("total time ::" + (end - start) + "msec");

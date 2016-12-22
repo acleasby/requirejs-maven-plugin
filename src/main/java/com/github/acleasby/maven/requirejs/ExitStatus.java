@@ -1,4 +1,4 @@
-package com.github.bringking.maven.requirejs;
+package com.github.acleasby.maven.requirejs;
 
 public class ExitStatus {
     private int exitCode;

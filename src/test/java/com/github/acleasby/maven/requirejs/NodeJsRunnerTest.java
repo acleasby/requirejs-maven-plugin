@@ -1,4 +1,4 @@
-package com.github.bringking.maven.requirejs;
+package com.github.acleasby.maven.requirejs;
 
 import java.io.File;
 import org.apache.commons.exec.CommandLine;

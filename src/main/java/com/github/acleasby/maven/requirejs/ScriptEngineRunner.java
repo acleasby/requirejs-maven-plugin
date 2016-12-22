@@ -32,7 +32,7 @@
  * file under either the MPL or the GPL.
  *
  * ***** END LICENSE BLOCK ***** */
-package com.github.bringking.maven.requirejs;
+package com.github.acleasby.maven.requirejs;
 
 import java.io.File;
 import java.io.FileOutputStream;

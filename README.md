@@ -1,13 +1,3 @@
-## Deprecated/No Maintainer
-I no longer use this day to day and it has become something I can no longer maintain. Issues are closed on this repo, please feel
-free to reach out on twitter @TheBringKing if you need anything. I will keep the repo up for forks and clones.
-
-## Fork Notice
-
-The requirejs-maven-plugin is being maintained on another fork. Please refer to
-https://github.com/ChuanyuWang/requirejs-maven-plugin
-for up to date releases and bug fixes.
-
 # RequireJS maven plugin
 
 Builds javascript applications using the Asynchronous Module Definition (AMD)

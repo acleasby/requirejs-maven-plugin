@@ -1,4 +1,4 @@
-package com.github.bringking.maven.requirejs;
+package com.github.acleasby.maven.requirejs;
 
 import java.io.File;
 import java.io.FileFilter;
@@ -85,7 +85,6 @@ public class OptimizeMojo extends AbstractMojo {
      * automatically from the contents of this folder
      *
      * @parameter
-     * @required
      */
     private File fillDepsFromFolder;
 
